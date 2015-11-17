@@ -2,7 +2,7 @@
 set -e
 
 
-tar xvzf bind/bind-9.10.2.tar.gz
+tar xvjf p4ts-0.0.0.1/p4ts-0.0.0.1.tar.bz2
 
 echo $BOSH_INSTALL_TARGET
 

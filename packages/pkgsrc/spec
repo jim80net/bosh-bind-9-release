@@ -1,0 +1,8 @@
+---
+name: pkgsrc
+
+dependencies:
+- git
+
+files:
+- pkgsrc/.gitkeep

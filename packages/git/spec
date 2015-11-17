@@ -1,0 +1,7 @@
+---
+name: git
+
+dependencies:
+
+files:
+- git/git-2.6.3.tar.gz

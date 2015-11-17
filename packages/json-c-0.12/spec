@@ -1,0 +1,9 @@
+---
+name: json-c-0.12
+
+dependencies:
+- autoconf-2.69
+- p4ts-0.0.0.1
+
+files:
+- json-c-0.12/json-c-0.12.tar.gz

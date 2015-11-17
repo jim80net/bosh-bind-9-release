@@ -2,7 +2,7 @@
 set -e
 
 
-tar xvzf bind/bind-9.10.2.tar.gz
+unzip libjson_7.6.1/libjson_7.6.1.zip
 
 echo $BOSH_INSTALL_TARGET
 

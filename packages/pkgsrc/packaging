@@ -1,0 +1,8 @@
+# abort script on any command that exits with a non zero value
+set -e
+
+PATH=$PATH:$BOSH_INSTALL_TARGET/bin
+
+/var/vcap/packages/git/bin/git clone --depth 1 https://github.com/jsonn/pkgsrc.git $BOSH_INSTALL_TARGET
+
+echo $BOSH_INSTALL_TARGET

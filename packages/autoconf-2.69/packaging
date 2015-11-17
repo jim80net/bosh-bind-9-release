@@ -1,0 +1,10 @@
+# abort script on any command that exits with a non zero value
+set -e
+
+pushd autoconf-2.69
+  ./configure
+  make
+  make install prefix=$BOSH_INSTALL_TARGET exec_prefix=$BOSH_INSTALL_TARGET SHARED=1
+popd
+
+echo $BOSH_INSTALL_TARGET

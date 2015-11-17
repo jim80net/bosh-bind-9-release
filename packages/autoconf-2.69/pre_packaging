@@ -1,8 +1,4 @@
 # abort script on any command that exits with a non zero value
 set -e
 
-
-tar xvzf bind/bind-9.10.2.tar.gz
-
-echo $BOSH_INSTALL_TARGET
-
+tar xvzf autoconf-2.69/autoconf-2.69.tar.gz
