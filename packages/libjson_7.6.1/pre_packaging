@@ -1,8 +1,0 @@
-# abort script on any command that exits with a non zero value
-set -e
-
-
-unzip libjson_7.6.1/libjson_7.6.1.zip
-
-echo $BOSH_INSTALL_TARGET
-
